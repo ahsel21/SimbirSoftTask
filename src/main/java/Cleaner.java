@@ -1,3 +1,3 @@
 public interface Cleaner {
-    public void htmlToText(String url);
+    public void cleanTags(String url);
 }

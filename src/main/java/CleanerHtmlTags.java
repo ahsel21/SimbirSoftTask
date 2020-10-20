@@ -6,7 +6,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class CleanerHtmlTags implements Cleaner {
-    public void htmlToText(String url){
+    public void cleanTags(String url){
         try {
             Document document = Jsoup.connect(url).get();
             File file = new File("downloads/htmlWithoutTags.html");
